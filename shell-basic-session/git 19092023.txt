@@ -1,0 +1,84 @@
+GIT
+
+19.09.2023
+
+THE IMPORTANCE OF A COMMIT. COMMIT OFTEN. DESCRIPTION ON POINT. 
+
+
+git init						| start
+git status					| status check
+git add .					| add all
+git commit -m 'initial commit/first commit'	| screenshot of the code, impt to have good desc. 
+git branch -M main
+git remote add origin <link>
+git push -u origin main
+
+
+push an existing repo from the command line
+
+git remote add origin <link>
+git branch -M main
+git push -u origin main
+
+
+
+
+git restore					| go back to last commit
+git restore file.name				| restore file
+git restore . 					| go back all
+
+git remote -v					| what the origin link is
+
+git pull origin main				| update
+
+git push -f origin main				| force new 
+
+git pull						| update new stuff
+
+
+
+
+
+
+
+
+…or create a new repository on the command line
+echo "# session-notebook" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/syennings/session-notebook.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/syennings/session-notebook.git
+git branch -M main
+git push -u origin main
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+
+
+20.09.2023
+
+
+BRANCHES
+
+use branches to work on separate codes
+e.g feature/login, fix/homepage-statusbar-logo
+
+
+git switch -c 'feature/homepage'	| c, create. switch to a branch. 
+
+git switch main			| switch to main
+
+git switch - 			| switch back to branch i came from
+
+git branch -a			| show all branches
+
+git push 			| upload changes
+git pull				| download changes
+
+git branch -d 'feature/homepage'	| delete branche
+
+git mv <file> <file>		| move file/change name

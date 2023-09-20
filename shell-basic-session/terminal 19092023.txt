@@ -1,0 +1,40 @@
+TERMINAL
+
+mkdir		| create folder
+rmdir		| delete folder
+
+code .		| pull up code in vs code
+
+cd		| change directory
+cd ..		| point to parent directory, move up one folder
+cd -		| back to the folder you were previously in
+
+git clone	| get repository
+
+ls		| list directory
+
+ls -l		|  long list
+ls -a		|  all, see everything including hidden files
+
+pwd		| print working directory, know where you are
+
+~ or cd		| go to home folder
+
+.		| hidden file
+
+mv		| move item
+mv notes/filename notes/folder name
+
+touch		| create files
+
+man		| manual 
+q		| leave manual page
+
+cat <filename>	| show all file name, what something is
+
+rm		| remove file
+
+tree .		| show folder tree
+
+
+

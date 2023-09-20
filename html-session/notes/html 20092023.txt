@@ -1,0 +1,7 @@
+HTML
+
+!	| shortcut to create a basic form
+
+<!-->	| comment. or command / 
+
+lorem	| lorem ipsum text	
