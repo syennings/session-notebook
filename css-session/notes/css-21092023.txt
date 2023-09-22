@@ -1,0 +1,30 @@
+CSS
+
+cascading style sheet
+
+select by element, classname, id 
+
+
+. is to select a class
+# to select an id
+
+
+
+
+id is the most specific selection 
+
+Inline Style > ID > Class > Element
+highest—————> lowest specificity
+
+
+
+https://www.joshwcomeau.com/
+
+padding - space inside of the element
+margin - outside the element
+
+section
+
+id to specific section
+
+google fonts access the users - not recommended to link

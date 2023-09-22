@@ -1,0 +1,26 @@
+POSITIONING
+
+
+Header. Main. Footer. 
+
+
+
+vh | view height
+
+
+
+position
+
+position:fixed; |  always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
+
+position: absolute; |  is positioned relative to the nearest positioned ancestor 
+
+position: sticky; | is positioned based on the user's scroll position
+
+absolute / relative 
+
+
+
+
+
+z-index | priority

@@ -1,0 +1,51 @@
+/* This is the universal selector */
+
+* {
+  box-sizing: border-box;
+  background-color: blue;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  min-height: 100vh;
+}
+
+main {
+  background-color: brown;
+  min-height: 200vh;
+}
+
+header {
+  color: orange;
+  position: fixed;
+  top: 80px;
+}
+
+h2 {
+  color: white;
+}
+
+.square {
+  background-color: darkblue;
+  width: 300px;
+  height: 300px;
+  position: sticky;
+  top: 300px;
+  left: 300px;
+}
+
+.circle {
+  border: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.circle.primary {
+  position: relative;
+  background-color: beige;
+}
+
+.secondary {
+  background-color: yellow;
+}

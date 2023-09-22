@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  background-color: darkorchid;
+  color: bisque;
+  height: 300px;
+  width: 500px;
+  border: 5px solid black;
+  padding: 50px;
+  margin: 50px;
+  line-height: 1.5;
+}
+
+.green-bg {
+  background-color: chartreuse;
+  color: lightcoral;
+}
+
+.rounded {
+  border-style: dotted;
+  color: black;
+}
+
+#first-div {
+  background-color: aquamarine;
+}
+#first-div:hover {
+  background-color: white;
+  color: brown;
+}
+
+#second-div:active {
+  background-color: grey;
+}
+
+span {
+  background-color: blue;
+}
