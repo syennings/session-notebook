@@ -1,0 +1,20 @@
+JAVASCRIPT BASICS
+
+
+
+index.js
+> console
+node |______|
+
+
+> browser
+
+<script src="./index.js"> defer </script>
+
+defer means do it at the end
+
+
+
+D	O	M
+Document Object Model
+

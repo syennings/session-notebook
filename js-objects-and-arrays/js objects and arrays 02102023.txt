@@ -1,0 +1,31 @@
+JAVASCRIPT 
+
+
+ARRAYS
+
+
+
+arrays - list of items in order
+
+
+	[item 1, item 2, item 3]
+
+position 0, 	1, 	2 / length-1
+
+counting from 0 — length-1
+
+arrays are a type of object. a complex type.
+
+const array = [ 1, 2, 3 ]
+
+
+
+
+OBJECTS 
+
+"key": "value"
+
+
+arrays are ordered and objects are not (unordered)
+
+

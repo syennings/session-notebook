@@ -28,3 +28,47 @@ section
 id to specific section
 
 google fonts access the users - not recommended to link
+
+
+tag to css
+
+
+id | #
+class | .
+tagname | name
+universal | *
+
+
+
+name classes using:
+
+B	E	M
+Block Element Modifier
+
+
+
+multiple style sheets
+
+@import
+
+or link html 
+
+
+
+overview:
+
+we name classes using BEM
+
+css
+
+read top
+|
+|
+|
+bottom
+
+we the last one
+
+we have more than 1css file. don't forget to import. 
+
+we love css variable

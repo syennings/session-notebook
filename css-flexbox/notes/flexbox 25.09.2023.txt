@@ -1,0 +1,12 @@
+
+
+
+by default
+
+Main Axis | x
+cross Axis | y
+
+
+
+cross axis
+ flex-direction: column;

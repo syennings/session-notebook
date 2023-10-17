@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  background-color: blue;
+}
+
+ul {
+  font-size: 2rem;
+}
+
+li {
+  font-size: 1em;
+}
+
+.square-big {
+  width: 300px;
+  height: 300px;
+  background-color: bisque;
+}
+
+.square-small {
+  width: 14vw;
+  height: 30%;
+  background-color: orange;
+}

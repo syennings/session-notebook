@@ -1,0 +1,99 @@
+:root {
+  --primary-dark: #2e016d;
+  --primary: #3f0097;
+  --primary-light: #8236ff;
+
+  --secondary-dark: #38ccda;
+  --secondary: #7fd9e2;
+
+  --tertiary-dark: #ffadb9;
+  --tertiary-light: #ffdee2;
+
+  --accent: #ffd15d;
+  --black-light: #303030;
+  --black: #000000;
+  --white: #ffffff;
+  --grey-dark: #b6b9c2;
+  --grey-light: #f5f6f6;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: var(--white);
+  line-height: 1.4;
+}
+
+.logo {
+  width: 1000px;
+  padding: 2rem 0 0 2rem;
+  margin: auto;
+}
+
+.bootcamp-grid {
+  max-width: 1000px;
+  padding: 2rem;
+  margin: auto;
+  color: var(--white);
+}
+
+.bootcamp {
+  padding: 1.4rem;
+  background-color: var(--primary-dark);
+  border-radius: 5px;
+}
+
+.bootcamp--1 {
+  background-color: var(--tertiary-dark);
+}
+
+.bootcamp--1 .bootcamp__headline,
+.bootcamp--3 .bootcamp__headline,
+.bootcamp--5 .bootcamp__headline {
+  color: #3f0097;
+}
+
+.bootcamp--3,
+.bootcamp--5 {
+  background-color: var(--grey-light);
+  color: var(--primary-dark);
+}
+
+.bootcamp__headline {
+  margin: 0 0 1rem 0;
+  color: var(--tertiary-dark);
+}
+
+/* Start here: */
+
+.bootcamp-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.bootcamp--1 {
+  grid-column: span 2;
+}
+
+.bootcamp--3 {
+  grid-row: span 2;
+}
+
+.bootcamp--4 {
+  /* grid-column-start: 2;
+  grid-column-end: 4; */
+
+  grid-column: 2 / span 2;
+}
+
+.bootcamp--5 {
+  grid-row: start;
+}

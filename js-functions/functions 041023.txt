@@ -1,0 +1,54 @@
+JAVASCRIPT FUNCTIONS
+
+
+
+
+
+~ writing function in javaSript
+~ calling functions
+~ using function parameters
+~ learning what scope it
+
+
+
+
+scope the area in which a variable can be used
+
+e.g. accessible between {}
+
+if you define a variable outside a block - it's global
+
+if it is inside the block - it is only locally accessible
+
+~__________~//('-')/?_?
+
+
+
+const user = 'person'
+
+function greet (xname1 , xname2) {
+
+  const message = 'hello 😀' + xname1 + ' and ' + xname2
+ 
+  console.log(message)
+}
+
+
+
+// const user = 'gimena'
+// greet ('user')
+
+greet ('klaus','gimena')
+
+console.log(user)
+
+
+
+
+
+
+
+
+
+parameter | input
+return | output

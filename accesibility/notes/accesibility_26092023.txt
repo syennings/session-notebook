@@ -1,0 +1,29 @@
+ACCESIBILITY
+
+in the inspect page > > 
+accessibiity tab
+
+important
+
+
+ARIA
+attributes
+
+
+accessible rich internet applications
+
+SEMANTICS
+
+WCAG
+web content accesibility guideless
+
+
+
+contrast checker | for colors
+
+
++ use the right html tag for the job
+
++ web standard for accessibility 
+
+

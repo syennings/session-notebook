@@ -1,0 +1,17 @@
+GRID
+
+flex | row and columns | 1D
+
+grid | " | 2D
+
+
+
+
+grid container
+
+grid items
+
+
+1fr divides grid equally
+
+fr | fractal

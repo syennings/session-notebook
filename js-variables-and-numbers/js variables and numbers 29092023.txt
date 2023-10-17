@@ -1,0 +1,22 @@
+JAVASCRIPT VARIABLES AND NUMBERS
+
+
+three ways to declare a variable:
+
+const | fixed number. must be defined. 
+let | can be changed. doesn't have to be defined. 
+var | *to be used less*
+
+console.log(x) | 
+
+counter ++
+
+counter --
+
+console.log (Nan) | not a number
+
+variable | named storage
+
+
+
+

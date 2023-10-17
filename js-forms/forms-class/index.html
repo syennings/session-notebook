@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <section>
+        <h1 id="title">🎉 Private Birthday Party Picker 🎉</h1>
+        <p id="description">
+            Let's celebrate my birthday in small groups! Please give me your
+            name, your preferred party date and how many friends you will
+            bring to my private birthday party.
+        </p>
+    </section>
+    <form data-js="form" for="title">
+        <fieldset aria-labelledby="title">
+            <legend>Personal Information</legend>
+            <label for="name">Name: </label>
+            <input type="text" placeholder="What's your name?" id="name" name="username" maxlength="10" minlength="3" />
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required />
+        </fieldset>
+        <fieldset>
+            <legend>More Info</legend>
+
+            <label for="friends-to-join">Who is coming with you?</label>
+            <select name="select-guests" id="friends-to-join">
+                <option value="alone">I come alone</option>
+                <option value="cancelled">I am not coming</option>
+                <option value="someone">Maybe someone else</option>
+            </select>
+
+            <label for="date">What is the best day?</label>
+            <input type="date" name="date" id="date" min="2023-10-06" max="2023-10-08"  />
+        </fieldset>
+
+        <fieldset class="message">
+            <legend>Personal Message</legend>
+
+            <label for="comment">Leave your comment:</label>
+            <textarea name="comment" id="comment" cols="30" rows="3" data-js="comment"></textarea>
+        </fieldset>
+        <input type="submit" value="Submit" />
+    </form>
+    <section class="list">
+        <h2>List of guests</h2>
+        <div>Name - email</div>
+
+    </section>
+</body>
+
+</html>

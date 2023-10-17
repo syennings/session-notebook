@@ -1,0 +1,29 @@
+.flex-container {
+  display: flex;
+  background-color: olive;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* height: 500px; */
+  gap: 20px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.flex-items {
+  background-color: beige;
+  padding: 10px;
+  min-width: 350px;
+  max-width: 500px;
+  height: 200px;
+  /* width: 300px; */
+}
+
+.flex-items:nth-child(1) {
+  align-self: flex-end;
+}
+
+.flex-items:nth-child(3) {
+  align-self: center;
+  /* order: -1; */
+}

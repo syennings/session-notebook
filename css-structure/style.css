@@ -1,7 +1,43 @@
+:root {
+  --color-primary: whitesmoke;
+  --background-color-primary: purple;
+  --background-color-secondary: pink;
+  --background-color-third: red;
+}
+
 * {
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-  background: pink;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--background-color-primary);
+  margin: 20px;
+}
+
+nav {
+  width: 100%;
+  color: var(--color-primary);
+  border-bottom: 1px solid violet;
+}
+
+nav a {
+  color: var(--color-primary);
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav h1,
+nav h6 {
+  display: inline;
+}
+
+nav h1 {
+  text-align: center;
+  font-size: 30px;
+  margin: 20%;
 }
